@@ -15,11 +15,11 @@ namespace Relogio
         public int dia;
         public int mes;
 
-        public void AjusteHora(int h, int m, int s)
+        public void AjusteHora(int h, int m)
         {
             this.hora = h;
             this.minuto = m;
-            this.segundo = s;
+            
         }
 
         public void AjusteData(int d, int m)
@@ -36,37 +36,40 @@ namespace Relogio
 
         public void PassarTempo()
         {
-            int maxQtdSegundo = 60, maxQtdHora= 24, maxQtdDia = 30, maxQtdMes = 12;
+            int maxQtdSegundo = 59, maxQtdMin = 59, maxQtdHora = 24, maxQtdDia = 30, maxQtdMes = 12;
 
             this.segundo++;
             if (this.segundo == maxQtdSegundo)
             {
                 this.segundo = 0;
-                this.hora++;
+                this.minuto++;
 
-                if (this.hora == maxQtdHora)
+                if (this.minuto == maxQtdMin)
                 {
-                    this.hora = 0;
-                    this.dia++;
+                    this.minuto = 0;
+                    this.hora++;
 
-                    if (this.dia == maxQtdDia)
+                    if (this.hora == maxQtdHora)
                     {
-                        this.dia = 0;
-                        this.mes++;
+                        this.hora = 0;
+                        this.dia++;
 
-                        if (this.mes== maxQtdMes)
+                        if (this.dia == maxQtdDia)
                         {
-                            this.mes = 0;
-                        }
+                            this.dia = 0;
+                            this.mes++;
 
+                            if (this.mes == maxQtdMes)
+                            {
+                                this.mes = 0;
+                            }
+
+                        }
                     }
                 }
             }
         }
 
-        public void MostaTempo()
-        {
-            Console.WriteLine("Agora são {0}h:{1}m:{2}s e a Data é {3}/{4}", this.hora, this.minuto, this.segundo, this.dia, this.mes);
-        }
+        
     }
 }

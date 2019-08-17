@@ -1,0 +1,7 @@
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\bin\Debug\Televisao.exe.config
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\bin\Debug\Televisao.exe
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\bin\Debug\Televisao.pdb
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\obj\Debug\Televisao.csprojAssemblyReference.cache
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\obj\Debug\Televisao.csproj.CoreCompileInputs.cache
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\obj\Debug\Televisao.exe
+C:\Users\Ian\Documents\GitHub\PUC_POO\Televisao\Televisao\obj\Debug\Televisao.pdb

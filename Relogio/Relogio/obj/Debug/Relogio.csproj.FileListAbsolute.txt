@@ -1,0 +1,7 @@
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\bin\Debug\Relogio.exe.config
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\bin\Debug\Relogio.exe
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\bin\Debug\Relogio.pdb
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\obj\Debug\Relogio.csprojAssemblyReference.cache
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\obj\Debug\Relogio.csproj.CoreCompileInputs.cache
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\obj\Debug\Relogio.exe
+C:\Users\Ian\Documents\Estudos\PUC\2 - Segundo Simestre\Relogio\Relogio\obj\Debug\Relogio.pdb
