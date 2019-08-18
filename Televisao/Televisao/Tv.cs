@@ -9,8 +9,8 @@ namespace Televisao
     class Tv
     {
         public bool ligada;
-        public int canal;
-        public int volume;
+        public int canal = 2;
+        public int volume = 95;
 
         public bool LigaDesliga(bool tipo)
         {
@@ -34,11 +34,11 @@ namespace Televisao
 
         public bool AumentaVolume()
         {
-            if (this.volume == 85)            
+            if (this.volume == 100)            
                 return false;            
             else
             {
-                this.volume++;
+                this.volume = this.volume + 1;
                 return true;
             }
         }
@@ -49,7 +49,7 @@ namespace Televisao
                 return false;
             else
             {
-                this.volume--;
+                this.volume = this.volume - 1;
                 return true;
             }
         }

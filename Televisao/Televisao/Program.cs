@@ -13,6 +13,8 @@ namespace Televisao
             Console.WriteLine("Sua TV está {0}", StatusTv(t));
             if (t.ligada)
             {
+                Console.WriteLine("\nSeu Volume está em {0}", t.volume);
+                Console.WriteLine("Seu Canal é o {0}", t.canal);
                 Console.WriteLine("===============================");
                 Console.WriteLine("Digite:");
                 Console.WriteLine("1 - Desligar TV");
@@ -22,7 +24,7 @@ namespace Televisao
                 Console.WriteLine("===============================");
             }
             else
-            {
+            {                
                 Console.WriteLine("===============================");
                 Console.WriteLine("Digite:");
                 Console.WriteLine("1 - Ligar TV");                
@@ -56,7 +58,9 @@ namespace Televisao
                         t.ligada = false;
                         break;
                     case 2:
-                        t.AumentaVolume();
+                        if (! t.AumentaVolume())
+                            Console.WriteLine("Seu Volume já esta no máximo: {0}", t.volume);                        
+                            
                         break;
                     case 3:
                         t.DiminuiVolume();
