@@ -1,0 +1,2 @@
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\obj\Debug\Ian_Veiculos.csprojAssemblyReference.cache
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\obj\Debug\Ian_Veiculos.csproj.CoreCompileInputs.cache
