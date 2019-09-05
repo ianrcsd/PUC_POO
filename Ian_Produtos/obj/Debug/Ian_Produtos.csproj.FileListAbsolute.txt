@@ -1,0 +1,7 @@
+C:\Users\Ian\source\repos\Ian_Produtos\bin\Debug\Ian_Produtos.exe.config
+C:\Users\Ian\source\repos\Ian_Produtos\bin\Debug\Ian_Produtos.exe
+C:\Users\Ian\source\repos\Ian_Produtos\bin\Debug\Ian_Produtos.pdb
+C:\Users\Ian\source\repos\Ian_Produtos\obj\Debug\Ian_Produtos.csprojAssemblyReference.cache
+C:\Users\Ian\source\repos\Ian_Produtos\obj\Debug\Ian_Produtos.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\Ian_Produtos\obj\Debug\Ian_Produtos.exe
+C:\Users\Ian\source\repos\Ian_Produtos\obj\Debug\Ian_Produtos.pdb
