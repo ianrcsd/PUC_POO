@@ -1,2 +1,7 @@
 C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\obj\Debug\Ian_Veiculos.csprojAssemblyReference.cache
 C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\obj\Debug\Ian_Veiculos.csproj.CoreCompileInputs.cache
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\bin\Debug\Ian_Veiculos.exe.config
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\bin\Debug\Ian_Veiculos.exe
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\bin\Debug\Ian_Veiculos.pdb
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\obj\Debug\Ian_Veiculos.exe
+C:\Users\Ian\Documents\GitHub\PUC_POO\Ian_Veiculos\obj\Debug\Ian_Veiculos.pdb

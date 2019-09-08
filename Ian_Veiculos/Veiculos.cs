@@ -18,7 +18,18 @@ namespace Ian_Veiculos
         private double distancia;
         private char tipoCombustivel;
         private double totTanque;
-        private double litros;
+        private double qdtLitros;
+
+        public Veiculos(int capacidadeTanque)
+        {
+            this.capacidadeTanque = capacidadeTanque;
+            this.totTanque = 4;
+        }
+
+        public double getQtdLitros()
+        {
+            return this.qdtLitros;
+        }
 
         public double getTottanque()
         {
@@ -59,31 +70,28 @@ namespace Ian_Veiculos
         /// <summary>
         /// Metodo para encher o tanque
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Retorna a Quantidade de Litros que foram abastecidos ate completar o tanque</returns>
         public double Reabastecer()
         {
-            int cont = 0;
-            while (this.capacidadeTanque < this.totTanque)
-            {
-                this.totTanque++;
-                cont++;
-            }
-            return cont;
+            double aux;
+            aux = this.capacidadeTanque - this.totTanque;
+            this.totTanque = this.capacidadeTanque;            
+            return aux;
         }
 
 
         public void TrechoPercorrido(double distancia)
         {
-            this.distancia = distancia;
-            double qdtLitros = 0;
+            this.distancia = distancia;            
             if (this.tipoCombustivel == 'G')
             {
-                qdtLitros = distancia * consumoGasolina;
+                qdtLitros = distancia / consumoGasolina;                
             }
             else
             {
-                qdtLitros = distancia * consumoAlcool;
-            }            
+                qdtLitros = distancia / consumoAlcool;
+            }
+            totTanque -= qdtLitros;
         }
 
 
